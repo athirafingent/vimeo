@@ -9,14 +9,15 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
+        "ankitpokhrel/tus-php": "dev-symfony-5 as 1.10.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
         "ixudra/curl": "^6.19",
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
-        "vimeo/vimeo-api": "^3.0.2",
-        "vimeo/laravel": "^5.2"
+        "vimeo/laravel": "^5.5",
+        "vimeo/vimeo-api": "^3.0"
     },
     "require-dev": {
         "facade/ignition": "^2.0",

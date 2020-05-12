@@ -161,6 +161,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Vimeo\Laravel\VimeoServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -228,6 +229,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Embed' => Cohensive\Embed\Facades\Embed::class,
         'Curl' => Ixudra\Curl\Facades\Curl::class,
+        'Vimeo' => Vimeo\Laravel\Facades\Vimeo::class
+
     ],
 
 ];
