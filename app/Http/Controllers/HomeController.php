@@ -21,7 +21,7 @@ class HomeController extends Controller
             $video_id = $regs[3];
 
             // $response = Curl::to('https://api.vimeo.com/videos/'.$video_id)->get();
-            $response = Vimeo::connection('main')->request($video_id, array(), "GET");
+            $response = Vimeo::request('/videos/'.$video_id, [ ], 'GET');
         	dd($response);
         	// https://vimeo.com/417195609
         } else {
